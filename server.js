@@ -64,6 +64,10 @@
       });
     });
 
+    app.get('*', function(req, res) {
+      res.sendfile('./public/index.html');
+    });
+
     // listen (start app with node server.js) ======================================
     app.listen(3000);
     console.log("App listening on port 3000");

@@ -50,7 +50,7 @@
     });
 
     app.delete('/api/todos/:todo_id', function (req, res) {
-      Todo.remote({
+      Todo.remove({
         _id : req.params.todo_id
       }, function(err, todo) {
         if (err)

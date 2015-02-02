@@ -1,5 +1,7 @@
 #Single Page Application in MEAN 
 
+[![Code Climate](https://codeclimate.com/github/nickbdyer/meanspa/badges/gpa.svg)](https://codeclimate.com/github/nickbdyer/meanspa)
+
 Following a tutorial to assist with construction of table tennis ladder. 
 
 The tutorial presented at
